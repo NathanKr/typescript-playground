@@ -1,0 +1,21 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "<h2>Motivation</h2>\r JavaScript is great but it lack the following\r <ol>\r <li>enum</li>\r <li>static type</li>\r <li>interface</li>\r </ol>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanKr/typescript-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanKr/typescript-playground/issues"
+  },
+  "homepage": "https://github.com/NathanKr/typescript-playground#readme"
+}
