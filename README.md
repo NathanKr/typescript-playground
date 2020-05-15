@@ -11,12 +11,15 @@ JavaScript is great but it lack the following
 npm install -g typescript  ---> install globally
 
 <h3>Per project</h3>
-npm init -y ---> crate package.json
-
-Inside package.json update "scripts":{"tsc" : "tsc"}
-npm run tsc -- --init  ---> create tsconfig.json
-change  "outDir": "./build" ---> Redirect output structure to this directory. 
+<ol>
+<li>npm init -y ---> crate package.json</li>
+<li>Inside package.json update "scripts":{"tsc" : "tsc"}</li>
+<li>npm run tsc -- --init  ---> create tsconfig.json</li>
+<li>change  "outDir": "./build" ---> Redirect output structure to this directory</li>
+</ol>
 
 <h3>Per run</h3>
-npm run tsc ---> compile .ts to .js
-node build/index.js ---> invoke node
+<ol>
+<li>npm run tsc ---> compile .ts to .js</li>
+<li>node build/index.js ---> invoke node</li>
+</ol>
