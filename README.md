@@ -16,6 +16,7 @@ npm install -g typescript  ---> install globally
 <li>Inside package.json update "scripts":{"tsc" : "tsc"}</li>
 <li>npm run tsc -- --init  ---> create tsconfig.json</li>
 <li>change  "outDir": "./build" ---> Redirect output structure to this directory</li>
+<li>npm install @types/node --save-dev -> if you need e.g. require</li>
 </ol>
 
 <h3>Per run</h3>

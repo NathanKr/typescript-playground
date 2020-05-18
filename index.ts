@@ -1,5 +1,12 @@
 console.log("hello typescript");
 
+// you can not use const fs = require('fs') as in .js you need to do the following :
+// this will require npm install @types/node --save-dev
+
+import  fs =  require('fs');
+console.log(fs);
+
+
 import { Colors } from "./colors";
 import { Area } from "./area";
 import {IPerson} from "./iperson"

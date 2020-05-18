@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/NathanKr/typescript-playground/issues"
   },
-  "homepage": "https://github.com/NathanKr/typescript-playground#readme"
+  "homepage": "https://github.com/NathanKr/typescript-playground#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.1"
+  }
 }
