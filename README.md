@@ -19,8 +19,11 @@ npm install -g typescript  ---> install globally
 <li>npm install @types/node --save-dev -> if you need e.g. require</li>
 </ol>
 
+<h3>compilation</h3>
+in seperate terminal : tsc -w (this compile ts to js and put them in build directory)
+
 <h3>Per run</h3>
-<ol>
-<li>npm run tsc ---> compile .ts to .js</li>
-<li>node build/index.js ---> invoke node</li>
-</ol>
+in seperate terminal : node build/index.js ---> invoke node
+
+<h3>Debugging</h3>
+done easyly using vs code (no need for tsc -w)
