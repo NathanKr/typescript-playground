@@ -18,7 +18,7 @@ function showArea(a: Area) {
 
 // also possible ---> const c : Colors = Colors.Red;
 const c = Colors.Red;
-console.log(c);
+console.log(c == 'red');
 
 let a = new Area(1, 2);
 // --- hover on showArea(a) and see the Area type
